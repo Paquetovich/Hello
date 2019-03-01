@@ -11,7 +11,7 @@ get '/'
 assert_equal 'Hello, world!', last_response.body
 end
 def test_with_params
-get '/Frank'
+get '/Franko'
 assert_equal 'Hello, Frank!', last_response.body
 end
 end
